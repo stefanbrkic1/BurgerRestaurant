@@ -25,3 +25,11 @@ body {
     --secondary-color: #282828;
     --tertiary-color: #ffffff;
 }
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/src/img/food-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
