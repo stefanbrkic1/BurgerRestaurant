@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Haettenschweiler';
+    src: url(/src/fonts/Haettenschweiler-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/src/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+body {
+    font-size: 16rem;
+}
+
+:root{
+    --primary-color: #faa928;
+    --secondary-color: #282828;
+    --tertiary-color: #ffffff;
+}
