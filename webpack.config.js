@@ -15,6 +15,7 @@ module.exports = {
     devServer: {
       static: './dist',
     },
+    devtool: 'inline-source-map',
     module: {
       rules: [
         {

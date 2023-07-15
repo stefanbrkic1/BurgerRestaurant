@@ -32,8 +32,13 @@ body {
     background-image: url(/src/img/food-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 9fr 1fr;
+}
+.main{
+    justify-self: start;
+    align-self: center;
     display: flex;
-    align-items: center;
 }
 
 .container-left{
@@ -125,4 +130,80 @@ body {
   .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
   }
-  
+
+.github-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif; 
+}
+
+.github {
+    width: 30px;
+    margin-left: 6px;
+}
+
+.github-link {
+    text-decoration: none;
+    font-size: 20rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright-link{
+    text-decoration: none;
+    color: var(--tertiary-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.username:hover{
+    color: #ffba4c;
+}
+
+.tab-menu{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: Montserrat, sans-serif;
+    font-size: 20rem;
+    color: var(--tertiary-color);
+    padding-top: 30px;
+}
+
+.tab{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.tab:hover{
+    color: var(--primary-color);
+}
+
+.tab-active{
+    font-weight: bold;
+    color: var(--primary-color);
+    border-bottom: solid 4px var(--primary-color);
+}
+
+@media (max-width: 767px) {
+    .container-right{
+        display: none;
+    }
+    .container-left{
+        padding-left: 0px;
+    }
+    .headline{
+        font-size: 140px;
+    }
+    .headline-top{
+        font-size: 75px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+  }
