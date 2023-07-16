@@ -8,6 +8,7 @@ export default function openMenuTab() {
     const mainSection = document.getElementById('mainSection')
     mainSection.innerHTML = ''
     mainSection.classList.remove('main')
+    mainSection.classList.remove('contact-main')
     mainSection.classList.add('menu-main')
 
     // Parent container

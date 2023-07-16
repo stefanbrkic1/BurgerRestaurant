@@ -2,6 +2,7 @@ import './style.css'
 import openWebsite from './website';
 import openHomeTab from './home'
 import openMenuTab from './menu'
+import openContactTab from './contact';
 
 window.onload = function () {
     openWebsite()
@@ -34,6 +35,19 @@ window.onload = function () {
             menuTab.classList.add('tab-active')
 
             openMenuTab();
+        }
+    })
+
+    contactTab.addEventListener('click', () => {
+        if (contactTab.classList.contains('tab-active')) {
+            return
+        }
+        else {
+            homeTab.classList.remove('tab-active')
+            menuTab.classList.remove('tab-active')
+            contactTab.classList.add('tab-active')
+
+            openContactTab();
         }
     })
 };

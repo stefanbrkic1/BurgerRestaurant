@@ -10,6 +10,7 @@ export default function openHomeTab() {
     const mainSection = document.getElementById('mainSection')
     mainSection.innerHTML = ''
     mainSection.classList.remove('menu-main')
+    mainSection.classList.remove('contact-main')
     mainSection.classList.add('main')
 
     const containerLeft = document.createElement('div')
