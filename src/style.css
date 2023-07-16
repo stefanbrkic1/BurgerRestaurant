@@ -35,10 +35,36 @@ body {
     display: grid;
     grid-template-rows: 1fr 9fr 1fr;
 }
+
+.menu-content{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/src/img/menu-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 9fr 1fr;
+}
+
 .main{
     justify-self: start;
     align-self: center;
     display: flex;
+}
+
+.menu-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 250px);
+    gap: 30px;
 }
 
 .container-left{
@@ -78,7 +104,7 @@ body {
 }
 
 .cssbuttons-io-button {
-    margin-top: 15px;
+    margin-top: 27px;
     background: var(--primary-color);
     color: var(--secondary-color);
     font-family: Montserrat, sans-serif;
@@ -189,6 +215,90 @@ body {
     border-bottom: solid 4px var(--primary-color);
 }
 
+.menu-card{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    border: 3px solid var(--primary-color);
+}
+
+.card-left{
+    flex: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.card-right{
+    flex: 1;
+    border-radius: 7px;
+}
+
+.burger-name{
+    font-family: Haettenschweiler, sans-serif;
+    color: var(--primary-color);
+    font-size: 40rem;
+}
+
+.burger-price{
+    font-family: Montserrat, sans-serif;
+    font-size: 25rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    align-self: flex-end;
+}
+
+.burger-description{
+    font-family: Montserrat, sans-serif;
+    font-size: 16rem;
+    color: var(--tertiary-color);
+    align-self: baseline;
+}
+
+#burger1{
+    background-image: url(./img/burger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#burger2{
+    background-image: url(./img/burger2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#burger3{
+    background-image: url(./img/burger3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#burger4{
+    background-image: url(./img/burger6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#burger5{
+    background-image: url(./img/burger5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#burger6{
+    background-image: url(./img/burger4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media (max-width: 767px) {
     .container-right{
         display: none;
@@ -201,6 +311,22 @@ body {
     }
     .headline-top{
         font-size: 75px;
+    }
+    .menu-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 350px);
+    }
+    .content{
+        overflow: auto;
+    }
+    .menu-card{
+        flex-direction: column;
+    }
+    .card-left{
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .burger-price{
+        align-self: center;
     }
 }
 
