@@ -63,7 +63,7 @@ body {
 .menu-container{
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-template-rows: repeat(2, 250px);
+    grid-template-rows: repeat(2, 280px);
     gap: 30px;
 }
 
