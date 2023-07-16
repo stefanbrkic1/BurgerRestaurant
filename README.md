@@ -32,7 +32,7 @@ Burger restaurant page bulit using webpack. Click here [Link](https://stefanbrki
 - ![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)  
 - ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)    
 - ![Photoshop](https://img.shields.io/badge/adobephotoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)    
-- ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack)
+- ![Webpack](https://img.shields.io/badge/webpack-8DD6F9?style=for-the-badge&logo=Webpack)
 
 <br>
 
