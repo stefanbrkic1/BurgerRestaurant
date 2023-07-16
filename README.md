@@ -1,5 +1,5 @@
 # Burger Restaurant
-Burger restaurant page bulit using webpack. Click here [Link]()
+Burger restaurant page bulit using webpack. Click here [Link](https://stefanbrkic1.github.io/BurgerRestaurant/)
 
 <!-- ABOUT THE PROJECT -->
 ## Preview
