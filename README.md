@@ -4,9 +4,10 @@ Burger restaurant page bulit using webpack. Click here [Link]()
 <!-- ABOUT THE PROJECT -->
 ## Preview
 
-![LandingPagePreview]()
-![GameboardPreview]()
-![DevicesPreview]()
+![LandingPagePreview](./src/img/GitHub(MainPage).jpg)
+![MenuPagePreview](./src/img/GitHub(MainPage)2.jpg)
+![MenuPagePreview](./src/img/GitHub(MainPage)3.jpg)
+![DevicesPreview](./src/img/GitHub(Devices).jpg)
 
 > **Note**  
 >> Application is still under Development
