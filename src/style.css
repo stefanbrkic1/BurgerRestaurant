@@ -368,10 +368,10 @@ body {
         padding-left: 0px;
     }
     .headline{
-        font-size: 140px;
+        font-size: 140rem;
     }
     .headline-top{
-        font-size: 75px;
+        font-size: 75rem;
     }
     .menu-container{
         grid-template-columns: 1fr;
@@ -409,5 +409,55 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    
+    .container-right{
+        display: none;
+    }
+    .container-left{
+        padding: 30px;
+    }
+    .headline{
+        font-size: 200rem;
+    }
+    .headline-top{
+        font-size: 100rem;
+    }
+    .text{
+        font-size: 25rem;
+    }
+    .menu-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 350px);
+    }
+    .menu-content{
+        overflow: auto;
+    }
+    .menu-card{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .card-left{
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .burger-price{
+        align-self: center;
+    }
+    .github-container{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .info-container{
+        flex-direction: column;
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+        border: none;
+    }
+    .map{
+        width: 700px;
+    }
+    .contact-main{
+        padding: 0;
+    }
+    .cssbuttons-io-button{
+        font-size: 35rem;
+    }
   }
