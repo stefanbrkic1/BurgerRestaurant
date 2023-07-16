@@ -36,6 +36,5 @@ window.onload = function () {
             openMenuTab();
         }
     })
-
 };
 
