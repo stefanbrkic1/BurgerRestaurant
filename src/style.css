@@ -220,7 +220,10 @@ body {
     padding: 10px;
     border-radius: 10px;
     display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 3px solid var(--primary-color);
+    box-sizing: border-box;
+    padding: 15px;
 }
 
 .card-left{
@@ -234,12 +237,14 @@ body {
 .card-right{
     flex: 1;
     border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .burger-name{
     font-family: Haettenschweiler, sans-serif;
     color: var(--primary-color);
     font-size: 40rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .burger-price{
@@ -248,6 +253,7 @@ body {
     font-weight: bold;
     color: var(--primary-color);
     align-self: flex-end;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .burger-description{
@@ -255,6 +261,7 @@ body {
     font-size: 16rem;
     color: var(--tertiary-color);
     align-self: baseline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #burger1{
@@ -316,17 +323,22 @@ body {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 350px);
     }
-    .content{
+    .menu-content{
         overflow: auto;
     }
     .menu-card{
         flex-direction: column;
+        padding: 10px;
     }
     .card-left{
         grid-template-rows: repeat(3, 1fr);
     }
     .burger-price{
         align-self: center;
+    }
+    .github-container{
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
 }
 
