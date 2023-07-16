@@ -225,6 +225,11 @@ body {
     padding: 15px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.menu-card:hover{
+    background-color: var(--secondary-color);
 }
 
 .card-left{
