@@ -35,6 +35,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
           title: 'Restaurant | Landing Page',
+          favicon: './src/img/burger-logo.png',
           template: './src/index.ejs',
         }),
       ],
